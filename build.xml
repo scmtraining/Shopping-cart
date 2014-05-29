@@ -31,6 +31,7 @@
 		<mkdir  dir="${build.home}/WEB-INF/classes/java"/>
 		<mkdir dir="${web.home}"/>
 		<mkdir dir="${src.home}"/>
+		<mkdir  dir="${buid.home}"/>
 		<copy todir="${build.home}">
 		  <fileset dir="${web.home}"/>
 		</copy>
